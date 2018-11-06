@@ -36,7 +36,7 @@ class Dao {
   }
 
   public function setTimezone(){
-    $timezone = 'America/Denver';
+    $timezone = 'Asia/Jakarta';
     $conn = $this->getConnection();
     $saveQuery = "SET time_zone = :timezone;";
     $q = $conn->prepare($saveQuery);
