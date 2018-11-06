@@ -2,12 +2,12 @@
 require_once 'KLogger.php';
 
 class Dao {
-  //CLEARDB_DATABASE_URL: mysql://ba6b95c5bb543d:489ef638@us-cdbr-iron-east-01.cleardb.net/heroku_bc7a594b677ccd7?reconnect=true
+  //CLEARDB_DATABASE_URL: mysql://bff8cd602df248:632e9749@us-cdbr-iron-east-01.cleardb.net/heroku_62cd2c4b7f97888?reconnect=true
 
-  private $host = "localhost";
-  private $db = "gmkitekn_ingat";
-  private $user = "gmkitekn_ing";
-  private $pass = "Kolorbapakmu123";
+  private $host = "us-cdbr-iron-east-01.cleardb.net";
+  private $db = "heroku_62cd2c4b7f97888";
+  private $user = "bff8cd602df248";
+  private $pass = "632e9749";
   private $log;
   private $conn;
 
