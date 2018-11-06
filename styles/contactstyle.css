@@ -1,0 +1,59 @@
+.contactCard {
+    font-family: Roboto;
+    font-size: 1em;
+    color: #798896;
+    padding: 10px;
+    background-color: #e0e7ed;
+    display: table; /*I would like to use fit-width, but it doesn't work on non-chrome browsers*/
+    border: #798896 solid 2px ;
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px;
+}
+
+.contactCard > table  {
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 10px;
+    position: relative;
+    left: -10px;
+}
+
+.contactCard > b  {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    font-style: normal;
+    color: black;
+}
+
+.contactCard > hr  {
+  border: 0;
+  height: 2px;
+  background: #343e42;
+  background-image: linear-gradient(to right, #343e42, #e0e7ed);
+}
+
+.contactCard > table, th, td {
+    padding: 5px 10px 5px 10px;
+}
+
+.contactCard > th {
+    border-right: 1px solid #798896;
+    font-family: Arial, SansSerif;
+    font-weight: normal;
+}
+
+.contactListItem {
+    list-style-type: none;
+}
+
+.contactListItem > .contactDate{
+    float: right;
+    position: relative;
+    top: -110px;
+    left: -50px;
+    font-style: italic;
+    font-family: Roboto;
+    width: 200px;
+    text-align: center;
+}

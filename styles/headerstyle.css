@@ -1,0 +1,52 @@
+#header {
+    background-color: #e0e7ed;
+    margin: 0px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+#buttonList > li{
+    display: inline;
+}
+
+#buttonList{
+    display: inline-block;
+    padding-inline-start: 10px;
+}
+
+.headerButton{
+    display: inline;
+    width: 100px;
+    height: 50px;
+    background-color: #d2cdfb;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    padding: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.headerButtonHot {
+    background-color: #6857f2;
+}
+
+#buttonList a {
+  text-decoration: none;
+}
+
+#loginButton {
+    display: inline;
+    float: right;
+    height: 20px;
+    background-color: #f7f6ff;
+    color: #6857f2;
+    font-family: 'Comfortaa', cursive;
+    padding: 15px 30px 16px 30px;
+    text-align: center;
+}
