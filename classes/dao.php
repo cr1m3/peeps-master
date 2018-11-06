@@ -5,9 +5,9 @@ class Dao {
   //CLEARDB_DATABASE_URL: mysql://bff8cd602df248:632e9749@us-cdbr-iron-east-01.cleardb.net/heroku_62cd2c4b7f97888?reconnect=true
 
   private $host = "us-cdbr-iron-east-01.cleardb.net";
-  private $db = "heroku_62cd2c4b7f97888";
-  private $user = "bff8cd602df248";
-  private $pass = "632e9749";
+  private $db = "heroku_bc7a594b677ccd7";
+  private $user = "ba6b95c5bb543d";
+  private $pass = "489ef638";
   private $log;
   private $conn;
 
